@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Edin Jelacic Curriculum Vitae # the website title (if blank, full name will be used instead)
+title: Edin Jelacic's Little Website # the website title (if blank, full name will be used instead)
 first_name: Edin
 middle_name: 
 last_name: Jelačić
@@ -199,7 +199,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages/about_edin.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -279,8 +279,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jelačić]
+  first_name: [Edin, E.]
 
   style: apa
   locale: en

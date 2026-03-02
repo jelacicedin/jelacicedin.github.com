@@ -1,221 +1,260 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Edin Jelačić",
+    "label": "PhD Researcher at Mälardalen University",
+    "image": "slf_pic.jpeg",
+    "email": "jelacic.edin@gmail.com",
+    "phone": "+46704397874",
+    "summary": "R&D Software Engineer and Researcher specializing in Safety-Critical Systems, Verifiable AI, and Embedded Intelligence. Combines a strong foundation in high-performance engineering (C++/C#/Python) with advanced research in simulation environments and machine learning reliability. Proven track record at Cosylab developing control components for clinical facilities and at Mälardalen University building automated validation tools for industrial systems. Eager to apply expertise in intelligent systems, algorithm design, and real-time control to advanced engineering challenges.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Universitetsplan 1",
+      "postalCode": "72220",
+      "city": "Västerås",
+      "countryCode": "SE",
+      "region": "Västmanland"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jelacicedin",
+        "url": "https://github.com/jelacicedin/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "edin-jelacic",
+        "url": "https://www.linkedin.com/in/edin-jelacic/"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Mälardalens University (IDT - School of Innovation, Design and Technology)",
+      "position": "Fully-Funded PhD Researcher via the Knowledge Foundation (KK-Stiftelsen)",
+      "location": "Västerås, Sweden",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "summary": "Computer Science. Ongoing project: PerFlex: Performant and Flexible digital Systems through Verifiable AI.",
+      "highlights": [
+        "Architected and implemented an automated vehicular scenario generation pipeline utilizing the esmini simulation environment. Integrated a novel HASCo (Hybrid AI Scene Compiler) framework to orchestrate complex traffic scenarios for the validation of autonomous drive features under industrial safety constraints.",
+        "Engineered a Deep Learning-based cache simulator using LSTM networks to predict cache miss distributions, achieving near-native accuracy while significantly optimizing execution time compared to tools like DynamoRIO.",
+        "Developed a CPU load forecasting framework for industrial embedded systems, implementing Conformal Prediction for uncertainty quantification and Shapley values for real-time interpretability on resource-constrained hardware.",
+        "Architected a full-stack Electron/Typescript application to streamline AI model deployment, integrating Docker containerization for reproducible testing across simulation environments.",
+        "Co-authored a neural network reduction and verification algorithm building on top of the formal verification tool Marabou.",
+        "Collaborating with industrial partners (Volvo Cars, Hitachi Energy, Ericsson) to align research with production-grade safety standards, and supervised multiple Master Thesis students in AI/Reinforcement Learning topics."
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Cosylab",
+      "position": "Software Engineer, Control Systems Laboratory",
+      "location": "Ljubljana, Slovenia",
+      "startDate": "2021-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Engineered and took responsibility for several software components of a high-level radiation therapy control system.",
+      "highlights": [
+        "Engineered critical Java modules for radiation therapy control, architecting a unit safety analysis framework that ensured regulatory compliance for clinical facilities.",
+        "On-site engineering for an international client medical facility in Helsinki, Finland.",
+        "Successfully coordinated with international clients and technical experts."
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
+      "name": "Cosylab",
+      "position": "Student Developer, Control Systems Laboratory",
+      "location": "Ljubljana, Slovenia",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
       "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "highlights": [
+        "Contributed to the development and software engineering of commercial projects using C#.",
+        "Assisted in project architecture implementation of SCADA protocols within a C# architecture."
+      ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "University of Ljubljana, Faculty of Electrical Engineering",
+      "location": "Ljubljana, Slovenia",
+      "url": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=131271&lang=eng",
+      "area": "Department of Robotics",
+      "studyType": "Master's Degree",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "score": "9.4 / 10.0",
+      "courses": [],
+      "highlights": [
+        "Master Thesis: Dynamic Movement Primitives in High-Precision Robotic Applications (Presented at the 30th International Electrotechnical and Computer Science Conference ERK 2021).",
+        "Analyzed dynamic movement primitives as an algorithmic trajectory generation and reproduction tool.",
+        "Developed a new second-order filter approach to improve the precision of dynamic movement primitives on the example of camera-guided bacterial colony extraction.",
+        "Utilized MATLAB and Simulink, along with C++ PD controller.",
+        "Robotics control, forward and inverse kinematics and dynamics, signal and sensor theory studied throughout various courses and practical implementations.",
+        "Collaboration with ABB Robotics in Ljubljana, with ABB RobotStudio utilized on a novel pick-and-place implementation based on multiple laser distance measurements to target."
+      ]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
+      "institution": "Sarajevo University, Faculty of Electrical Engineering",
+      "location": "Sarajevo, B&H",
+      "area": "Department of Automatic Control and Electronics",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2016-01-01",
+      "endDate": "2019-01-01",
+      "score": "9.31 / 10.0",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "Bachelor Thesis: Lazy Probability Roadmap Path Planning Algorithm for Robotic Manipulators.",
+        "Analyzed, described and implemented a graph-based Lazy PRM algorithm for path planning.",
+        "Implemented the algorithm in C++ (Boost Library) and MATLAB.",
+        "Undertook various courses on control theory, electronics and fundamentals of robotics."
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Silver Medal",
+      "date": "2019-01-01",
+      "awarder": "Sarajevo University",
+      "summary": "Recipient for outstanding academic results throughout Bachelor studies, with a grade point average of 9.31 out of 10.0."
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "STEM Games - Group 5th Placement (Technology Arena)",
+      "date": "2018-01-01",
+      "awarder": "International Science, Technology, Engineering and Maths competition",
+      "summary": "Competed under the Faculty of Electrical Engineering Sarajevo by taking part in coding challenges in Poreč, Croatia."
+    },
+    {
+      "title": "Elektrijada - Bronze Group Medal (Engineering Mathematics 1)",
+      "date": "2017-01-01",
+      "awarder": "International Electrical Engineering competition",
+      "summary": "Also achieved a group participation prize at the Technical English language competition in Budva, Montenegro."
+    },
+    {
+      "title": "Project Olympiad - Team 5th Place (Engineering Section)",
+      "date": "2015-01-01",
+      "awarder": "International Burch University",
+      "summary": "Awarded for the electromechanical device project termed 'Hydrogen core reactor'."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Machine-Learning Based Cache Miss Prediction",
+      "publisher": "Springer International Journal on Software Tools for Technology Transfer - STTT",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "Published in Germany."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "A Conformal Prediction-Based Framework for CPU Load Forecasting: A Black-Box Approach",
+      "publisher": "COMPSAC 2025 Conference",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "Published in Toronto, Canada."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Abstraction-based Reduction of Input Size for Neural Networks",
+      "publisher": "AISoLa 2023 Conference",
+      "releaseDate": "2023-01-01",
+      "url": "",
+      "summary": "Published in Greece."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "C++",
+        "C",
+        "C#"
+      ]
+    },
+    {
+      "name": "AI & ML",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "AI model deployment",
+        "AI analysis"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Docker",
+        "SQLite",
+        "Electron.js",
+        "CI/CD pipelines"
+      ]
+    },
+    {
+      "name": "Modeling & Simulation",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "MATLAB",
+        "Simulink",
+        "LTSpice",
+        "LabVIEW",
+        "ABB RobotStudio"
+      ]
+    },
+    {
+      "name": "Hardware & Embedded",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Data Acquisition (DAQ)",
+        "Signal Analysis",
+        "Electrical Measurement",
+        "PCB design"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Bosnian",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Expert proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Slovenian",
+      "fluency": "Advanced proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Beginner proficiency",
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Available upon request",
+      "icon": "",
+      "reference": ""
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Hydrogen Core Reactor",
+      "summary": "Electromechanical device project focusing on energy efficiency with respect to internal combustion engines. Resulted in a 5th place finish in the Engineering section at the International Burch University Project Olympiad.",
+      "highlights": [
+        "Researched and developed energy efficiency concepts for internal combustion engines."
+      ],
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01"
     }
   ]
 }
