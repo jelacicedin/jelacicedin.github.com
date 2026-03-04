@@ -407,36 +407,66 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-build-a-large-language-model",
+          title: 'Build a Large Language Model',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "books-modern-time-series-forecasting-with-python",
-          title: 'Modern Time Series Forecasting with Python',
+              window.location.href = "/books/build_a_large_language_model/";
+            },},{id: "books-conflict-the-evolution-of-warfare-from-1945-to-ukraine-understanding-modern-warfare-today",
+          title: 'Conflict: The Evolution of Warfare from 1945 to Ukraine―Understanding Modern Warfare Today',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/modern_time_series_forecasting/";
-            },},{id: "books-natural-language-processing-with-transformers",
-          title: 'Natural Language Processing with Transformers',
+              window.location.href = "/books/conflict_the_evolution_of_warfare_from_1945_to_ukr/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/nlp_transformers/";
-            },},{id: "books-the-thinking-machine",
-          title: 'The Thinking Machine',
+              window.location.href = "/books/deep_learning/";
+            },},{id: "books-empire-of-ai-dreams-and-nightmares-in-sam-altman-39-s-openai",
+          title: 'Empire of AI: Dreams and Nightmares in Sam Altman&amp;#39;s OpenAI',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/thinking_machine/";
-            },},{id: "books-build-a-large-language-model-from-scratch",
-          title: 'Build a Large Language Model (From Scratch)',
+              window.location.href = "/books/empire_of_ai_dreams_and_nightmares_in_sam_altmans_/";
+            },},{id: "books-extreme-ownership-how-u-s-navy-seals-lead-and-win",
+          title: 'Extreme Ownership: How U.S. Navy SEALs Lead and Win',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/build_llm/";
-            },},{id: "books-empire-of-ai",
-          title: 'Empire of AI',
+              window.location.href = "/books/extreme_ownership_how_us_navy_seals_lead_and_win/";
+            },},{id: "books-goodbye-eastern-europe-an-intimate-history-of-a-divided-land",
+          title: 'Goodbye, Eastern Europe: An Intimate History of a Divided Land',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/empire_of_ai/";
+              window.location.href = "/books/goodbye_eastern_europe_an_intimate_history_of_a_di/";
+            },},{id: "books-kratka-uputa-u-prošlost-bosne-i-hercegovine",
+          title: 'Kratka uputa u prošlost Bosne i Hercegovine',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/kratka_uputa_u_prolost_bosne_i_hercegovine/";
+            },},{id: "books-master-of-change-how-to-excel-when-everything-is-changing-including-you-embracing-life-s-instability-with-rugged-flexibility-a-practical-model-for-resilience",
+          title: 'Master of Change: How to Excel When Everything Is Changing, Including You; Embracing...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/master_of_change_how_to_excel_when_everything_is_c/";
+            },},{id: "books-modern-time-series-forecasting-with-python-explore-industry-ready-time-series-forecasting-using-modern-machine-learning-and-deep-learning",
+          title: 'Modern Time Series Forecasting with Python: Explore industry-ready time series forecasting using modern...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/modern_time_series_forecasting_with_python_explore/";
+            },},{id: "books-natural-language-processing-with-transformers-building-language-applications-with-hugging-face",
+          title: 'Natural Language Processing with Transformers: Building Language Applications with Hugging Face',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/natural_language_processing_with_transformers_buil/";
+            },},{id: "books-the-thinking-machine-jensen-huang-nvidia-and-the-world-39-s-most-coveted-microchip",
+          title: 'The Thinking Machine: Jensen Huang, Nvidia, and the World&amp;#39;s Most Coveted Microchip',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_thinking_machine_jensen_huang_nvidia_and_the_w/";
+            },},{id: "books-why-nations-fail-the-origins-of-power-prosperity-and-poverty",
+          title: 'Why Nations Fail: The Origins of Power, Prosperity, and Poverty',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/why_nations_fail_the_origins_of_power_prosperity_a/";
             },},{id: "news-masters-thesis",
           title: 'Masters Thesis',
           description: "",
