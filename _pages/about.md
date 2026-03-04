@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Researcher. Verifiable AI & Safety-Critical Systems.
 
 profile:
   align: right
   image: prof_pic_edin.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>Universitetsplan 1</p>
-    <p>Västerås, Sweden:sweden: </p>
+    <p>Mälardalen University</p>
+    <p>Västerås, Sweden 🇸🇪</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,14 +26,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there! I'm Edin.
+I'm a PhD researcher at Mälardalen University studying how to build AI systems we can actually trust. My background spans robotics, software engineering, and now verifiable AI—all with a focus on making systems that people can depend on.
 
-I'm a software engineer and researcher with a passion for building intelligent systems that we can actually trust. Currently, I'm a PhD Researcher in Computer Science at Mälardalen University (MDU) in Västerås, Sweden, where my work is fully funded by the Knowledge Foundation as part of the PerFlex project.
+Currently, I'm working on the PerFlex project with collaborators at Volvo Cars, Hitachi Energy, and Ericsson. The research looks at how to preserve system properties like execution time and power consumption when using machine learning, and how to verify that these properties hold.
 
-My research is all about verifiable AI and safety-critical systems. Essentially, I look for ways to guarantee that AI models behave exactly as they should in high-stakes, real-world environments. Because I want my research to have a practical impact, I collaborate closely with industry partners like Volvo Cars, Hitachi Energy, and Ericsson. Lately, I've been focused on building automated traffic simulation pipelines for autonomous vehicles and engineering deep learning tools to optimize how hardware runs.
+Before my PhD, I worked as a software engineer at Cosylab building critical systems for radiation therapy machines. That experience taught me why safety matters.
 
-Before moving to Sweden for my PhD, I spent a few years as an R&D Software Engineer at Cosylab in Slovenia. There, I wrote critical control software and safety frameworks for radiation therapy machines—an experience that really cemented my deep respect for strict safety standards and system reliability.
+Explore my work:
 
-Academically, I hold a Master's degree in Robotics from the University of Ljubljana (where my thesis focused on high-precision robotic movements) and a Bachelor's in Automatic Control and Electronics from Sarajevo University.
+- **[Publications](/publications/)** - Peer-reviewed papers
+- **[Projects](/projects/)** - Research collaborations
+- **[CV](/cv/)** - Academic background
+- **[Bookshelf](/bookshelf/)** - Things I'm reading
+- **[People](/people/)** - My supervisors
 
-Welcome to my corner of the web! Feel free to check out my publications and projects below, or reach out via email or LinkedIn if you'd like to chat about AI safety, robotics, or software engineering.
+Feel free to get in touch via email or LinkedIn if you want to chat about AI safety, robotics, or systems engineering.
