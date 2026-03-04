@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 🇧🇦 Edin Jelacic's Little Website 🇸🇪 # the website title (if blank, full name will be used instead)
+title: <img src="/assets/img/Animated-Flag-Bosnia.gif" alt="Bosnia" style="height:20px;"> Edin Jelacic - PhD Researcher <img src="/assets/img/Animated-Flag-Sweden.gif" alt="Sweden" style="height:20px;"> # the website title (if blank, full name will be used instead)
 first_name: Edin
 middle_name: 
 last_name: Jelačić
