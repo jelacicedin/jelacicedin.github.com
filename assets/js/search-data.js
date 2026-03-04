@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -46,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "members of the lab or group",
+          description: "My supervisors and collaborators",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -419,67 +412,76 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "books-modern-time-series-forecasting-with-python",
+          title: 'Modern Time Series Forecasting with Python',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "Books",handler: () => {
+              window.location.href = "/books/modern_time_series_forecasting/";
+            },},{id: "books-natural-language-processing-with-transformers",
+          title: 'Natural Language Processing with Transformers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nlp_transformers/";
+            },},{id: "books-the-thinking-machine",
+          title: 'The Thinking Machine',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/thinking_machine/";
+            },},{id: "books-build-a-large-language-model-from-scratch",
+          title: 'Build a Large Language Model (From Scratch)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/build_llm/";
+            },},{id: "books-empire-of-ai",
+          title: 'Empire of AI',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/empire_of_ai/";
+            },},{id: "news-masters-thesis",
+          title: 'Masters Thesis',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/2021-08-01-masters-thesis/";
+            },},{id: "news-cosylab",
+          title: 'Cosylab',
           description: "",
-          section: "News",},{id: "news-licentiate-proposal",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021-09-01-cosylab/";
+            },},{id: "news-phd-start",
+          title: 'Phd Start',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-09-01-phd-start/";
+            },},{id: "news-aisola-2023",
+          title: 'Aisola 2023',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023-10-01-aisola-2023/";
+            },},{id: "news-compsac-2025",
+          title: 'Compsac 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-01-compsac-2025/";
+            },},{id: "news-sttt-journal",
+          title: 'Sttt Journal',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-01-02-sttt-journal/";
+            },},{id: "news-licentiate-proposal",
           title: 'Licentiate Proposal',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-03-04-licentiate-proposal/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-perflex-project",
+          title: 'PerFlex Project',
+          description: "Performant and Flexible digital Systems through Verifiable AI",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_perflex/";
+            },},{id: "projects-d-rods-project",
+          title: 'D-RODS Project',
+          description: "A Digital Twin Framework for Dynamic and Robust Distributed Systems",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/2_drods/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
