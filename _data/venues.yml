@@ -18,6 +18,10 @@
   color: "#0071c5"
 
 # Conferences
+"To be published at conference":
+  url: https://journals.aps.org/
+  color: "#0078d4"
+  
 "COMPSAC":
   url: https://ieeexplore-ieee-org.ep.bib.mdh.se/document/11126446
   color: "#0078d4"
