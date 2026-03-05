@@ -2,9 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: <img src="/assets/img/Animated-Flag-Bosnia.gif" alt="Bosnia" style="height:20px;"> Edin Jelacic - PhD Researcher <img src="/assets/img/Animated-Flag-Sweden.gif" alt="Sweden" style="height:20px;"> # the website title (if blank, full name will be used instead)
+title: blank # set to blank to always use author name (Edin Jelačić)
+header_title: <img src="/assets/img/Animated-Flag-Bosnia.gif" alt="Bosnia" style="height:20px;"> Edin <b>Jelačić</b> - PhD Researcher <img src="/assets/img/Animated-Flag-Sweden.gif" alt="Sweden" style="height:20px;"> # displayed in the website header
 first_name: Edin
-middle_name: 
+middle_name:
 last_name: Jelačić
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -19,7 +20,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jelacicedin.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
