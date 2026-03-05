@@ -1,0 +1,39 @@
+<div id="random-quote" class="random-quote-container">
+  <!-- Quote will be loaded here by JavaScript -->
+  <blockquote>
+    <p>Loading a random quote...</p>
+  </blockquote>
+</div>
+
+<script src="{{ '/_scripts/quote-loader.js' | relative_url }}"></script>
+
+<style>
+  .random-quote-container {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--global-card-bg-color);
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0.25rem;
+  }
+
+  .random-quote-container blockquote {
+    margin: 0;
+    font-style: italic;
+    color: var(--global-text-color);
+  }
+
+  .random-quote-container blockquote p {
+    margin: 0.5rem 0;
+  }
+
+  .random-quote-container blockquote p:first-child {
+    margin-top: 0;
+  }
+
+  .random-quote-container blockquote p:last-child {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-top: 1rem;
+  }
+</style>

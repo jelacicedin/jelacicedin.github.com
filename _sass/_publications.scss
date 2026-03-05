@@ -71,6 +71,44 @@
         font-weight: bolder;
       }
 
+      .title-link {
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        .title {
+          transition: color 0.2s ease;
+        }
+
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: none;
+
+          .title {
+            color: var(--global-theme-color);
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .preview-link {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+
+        img,
+        figure {
+          display: block;
+          transition: transform 0.2s ease;
+          opacity: 1;
+        }
+
+        &:hover img,
+        &:hover figure {
+          transform: scale(1.02);
+          opacity: 0.8;
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);

@@ -1,6 +1,35 @@
 ---
 ---
 <div class="row">
+  <!-- Determine venue name and URL first (before using in preview/title) -->
+  {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+  {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+  {% assign venue_name = '' %}
+  {% assign venue_url = null %}
+  {% assign venue_has_url = false %}
+
+  {% if entry.type == 'article' %}
+    {% assign venue_name = entry.journal | default: entry.journaltitle %}
+    {% if entry.abbr and site.data.venues[entry.abbr] and site.data.venues[entry.abbr].url %}
+      {% assign venue_url = site.data.venues[entry.abbr].url %}
+      {% assign venue_has_url = true %}
+    {% elsif site.data.venues[venue_name] and site.data.venues[venue_name].url %}
+      {% assign venue_url = site.data.venues[venue_name].url %}
+      {% assign venue_has_url = true %}
+    {% endif %}
+  {% elsif proceedings contains entry.type %}
+    {% assign venue_name = entry.booktitle | default: entry.eventtitle %}
+    {% if site.data.venues[venue_name] and site.data.venues[venue_name].url %}
+      {% assign venue_url = site.data.venues[venue_name].url %}
+      {% assign venue_has_url = true %}
+    {% elsif entry.abbr and site.data.venues[entry.abbr] and site.data.venues[entry.abbr].url %}
+      {% assign venue_url = site.data.venues[entry.abbr].url %}
+      {% assign venue_has_url = true %}
+    {% endif %}
+  {% elsif thesis contains entry.type %}
+    {% assign venue_name = entry.school %}
+  {% endif %}
+
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -27,19 +56,40 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          {% if venue_has_url %}
+            <a href="{{ venue_url }}" class="preview-link">
+              <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+            </a>
+          {% else %}
+            <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          {% endif %}
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
-          %}
+          {% if venue_has_url %}
+            <a href="{{ venue_url }}" class="preview-link">
+              {%
+                include figure.liquid
+                loading="eager"
+                path=entry_path
+                sizes = "200px"
+                class="preview z-depth-1 rounded"
+                zoomable=true
+                avoid_scaling=true
+                alt=entry.preview
+              %}
+            </a>
+          {% else %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=entry_path
+              sizes = "200px"
+              class="preview z-depth-1 rounded"
+              zoomable=true
+              avoid_scaling=true
+              alt=entry.preview
+            %}
+          {% endif %}
         {% endif %}
       {% endif %}
     </div>
@@ -48,7 +98,13 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% if venue_has_url %}
+      <a href="{{ venue_url }}" class="title-link">
+        <div class="title">{{ entry.title }}</div>
+      </a>
+    {% else %}
+      <div class="title">{{ entry.title }}</div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -149,17 +205,24 @@
     </div>
 
     <!-- Journal/Book title and date -->
-    {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
-    {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% if venue_has_url %}
+        {% capture entrytype %}<em><a href="{{ venue_url }}">{{ venue_name }}</a></em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}<em>{{ venue_name }}</em>{% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% if venue_has_url %}
+        {% capture entrytype %}<em>In <a href="{{ venue_url }}">{{ venue_name }}</a></em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}<em>In {{ venue_name }}</em>{% endcapture %}
+      {% endif %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+
     {% assign entrymonth = '' %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
@@ -179,13 +242,24 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
+
+    <!-- Display publication source (journal/conference) with date -->
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+
+    <!-- Display publisher if available -->
+    {% if entry.publisher %}
+      <div class="periodical"><strong>Publisher:</strong> {{ entry.publisher }}</div>
+    {% endif %}
+
+    <!-- Display note if available -->
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -218,9 +292,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}

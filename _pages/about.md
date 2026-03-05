@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a PhD researcher at Mälardalen University studying how to build AI systems we can actually trust. My background spans robotics, software engineering, and now verifiable AI—all with a focus on making systems that people can depend on.
+I'm a PhD researcher at Mälardalen University studying how to build AI systems we can actually trust. My background spans robotics, software engineering, and now verifiable AI, all with a focus on making systems that people can depend on.
 
 Currently, I'm working on the PerFlex project with collaborators at Volvo Cars, Hitachi Energy, and Ericsson. The research looks at how to preserve system properties like execution time and power consumption when using machine learning, and how to verify that these properties hold.
 

@@ -7,3 +7,33 @@
 
 "Vision":
   color: "#009f36"
+
+# Journals
+"Int. J. Softw. Tools Technol. Transf.":
+  url: https://link.springer.com/journal/10009
+  color: "#0071c5"
+
+"STTT":
+  url: https://link-springer-com.ep.bib.mdh.se/article/10.1007/s10009-025-00800-6
+  color: "#0071c5"
+
+# Conferences
+"COMPSAC":
+  url: https://ieeexplore-ieee-org.ep.bib.mdh.se/document/11126446
+  color: "#0078d4"
+
+"2025 IEEE 49th Annual Computers, Software, and Applications Conference (COMPSAC)":
+  url: https://ieeexplore-ieee-org.ep.bib.mdh.se/document/11126446
+  color: "#0078d4"
+
+"AISola":
+  url: https://2023-aisola.isola-conference.org/
+  color: "#8B4513"
+
+"AISoLA":
+  url: https://2023-aisola.isola-conference.org/
+  color: "#8B4513"
+
+"ISoLA":
+  url: https://2023-aisola.isola-conference.org/
+  color: "#8B4513"
