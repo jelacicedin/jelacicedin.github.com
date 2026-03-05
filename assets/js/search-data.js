@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses and student supervision in verifiable AI and embedded systems.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-bookshelf",
           title: "bookshelf",
           description: "",
@@ -149,16 +156,16 @@ ninja.data = [{
           description: "A Digital Twin Framework for Dynamic and Robust Distributed Systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_drods/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-data-structures-algorithms-and-programming-construction-with-python",
+          title: 'Data Structures, Algorithms and Programming Construction with Python',
+          description: "Abstract data types, dynamic data structures, searching and sorting algorithms, and time complexity analysis.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/dva245-data-structures/";
+            },},{id: "teachings-data-communication-for-embedded-systems-1",
+          title: 'Data Communication for Embedded Systems 1',
+          description: "Theoretical and practical knowledge of data communication and networking for embedded systems.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/dva258-data-communication/";
             },},{
         id: 'social-cv',
         title: 'CV',
