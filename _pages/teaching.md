@@ -1,8 +1,6 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Courses and student supervision in verifiable AI and embedded systems.
 nav: true
 nav_order: 6
 ---
