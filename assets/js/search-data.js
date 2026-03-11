@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses and student supervision in verifiable AI and embedded systems.",
+        },{id: "nav-",
+          title: "",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -111,6 +111,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/why_nations_fail_the_origins_of_power_prosperity_a/";
+            },},{id: "books-ai-engineering-building-applications-with-foundation-models",
+          title: 'AI Engineering: Building Applications with Foundation Models',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ai_engineering_building_applications_with_foundati/";
             },},{id: "news-masters-thesis",
           title: 'Masters Thesis',
           description: "",
@@ -141,11 +146,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-01-02-sttt-journal/";
-            },},{id: "news-licentiate-proposal",
-          title: 'Licentiate Proposal',
+            },},{id: "news-licentiate-proposal-submitted",
+          title: 'Licentiate Proposal Submitted',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2026-03-04-licentiate-proposal/";
+              window.location.href = "/news/2025-10-02-licentiate-proposal/";
             },},{id: "projects-perflex-project",
           title: 'PerFlex Project',
           description: "Performant and Flexible digital Systems through Verifiable AI",
