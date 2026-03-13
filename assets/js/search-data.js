@@ -61,11 +61,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/conflict_the_evolution_of_warfare_from_1945_to_ukr/";
-            },},{id: "books-deep-learning",
-          title: 'Deep Learning',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/deep_learning/";
             },},{id: "books-empire-of-ai-dreams-and-nightmares-in-sam-altman-39-s-openai",
           title: 'Empire of AI: Dreams and Nightmares in Sam Altman&amp;#39;s OpenAI',
           description: "",
@@ -116,6 +111,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ai_engineering_building_applications_with_foundati/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning/";
+            },},{id: "books-i-robot",
+          title: 'I, Robot',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/i_robot/";
+            },},{id: "books-technofeudalism-what-killed-capitalism",
+          title: 'Technofeudalism: What Killed Capitalism',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/technofeudalism_what_killed_capitalism/";
+            },},{id: "books-the-beginning-of-infinity-explanations-that-transform-the-world",
+          title: 'The Beginning of Infinity: Explanations That Transform the World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_beginning_of_infinity_explanations_that_transf/";
+            },},{id: "books-the-biggest-ideas-in-the-universe-quanta-and-fields",
+          title: 'The Biggest Ideas in the Universe: Quanta and Fields',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_biggest_ideas_in_the_universe_quanta_and_field/";
+            },},{id: "books-the-global-minotaur-america-the-true-origins-of-the-financial-crisis-and-the-future-of-the-world-economy-economic-controversies-2nd-2nd-edition-by-varoufakis-yanis-2013-paperback",
+          title: 'The Global Minotaur: America, the True Origins of the Financial Crisis and the...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_global_minotaur_america_the_true_origins_of_th/";
+            },},{id: "books-the-great-dune-trilogy",
+          title: 'The Great Dune Trilogy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_great_dune_trilogy/";
+            },},{id: "books-zelena-svjetla",
+          title: 'Zelena svjetla',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/zelena_svjetla/";
             },},{id: "news-masters-thesis",
           title: 'Masters Thesis',
           description: "",
