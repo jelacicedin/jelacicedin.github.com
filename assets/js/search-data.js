@@ -181,9 +181,9 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-01-02-sttt-journal/";
-            },},{id: "news-licentiate-proposal-submitted",
-          title: 'Licentiate Proposal Submitted',
-          description: "",
+            },},{id: "news-licentiate-proposal-approved",
+          title: 'Licentiate Proposal Approved',
+          description: "Licentiate proposal approved by professor Mobyen Uddin Ahmed, at Mälardalen University, 2. October 2025",
           section: "News",handler: () => {
               window.location.href = "/news/2025-10-02-licentiate-proposal/";
             },},{id: "projects-perflex-project",
