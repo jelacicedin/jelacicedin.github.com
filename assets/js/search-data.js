@@ -151,6 +151,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/zelena_svjetla/";
+            },},{id: "books-the-lord-of-the-rings",
+          title: 'The Lord of the Rings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_lord_of_the_rings/";
             },},{id: "news-masters-thesis",
           title: 'Masters Thesis',
           description: "",
