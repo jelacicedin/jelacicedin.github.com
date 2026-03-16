@@ -5,5 +5,5 @@ title: Licentiate Proposal Approved
 description: Licentiate proposal approved by professor Mobyen Uddin Ahmed, at Mälardalen University, 2. October 2025 
 inline: false
 ---
-Licentiate proposal approved by professor Mobyen Uddin Ahmed, at Mälardalen University, 2. October 2025. Papers included in licentiate proposal may be seen at the **[publications page](/publications/)**.
+Licentiate proposal approved by professor Mobyen Uddin Ahmed, at Mälardalen University, 2. October 2025. Papers included in proposal may be seen at the **[publications page](/publications/)**.
 {% include licentiate_proposal.liquid %}
