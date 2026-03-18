@@ -1,23 +1,10 @@
 ---
 layout: page
 permalink: /licentiate/
-title: Licentiate Proposal
-description: Licentiate proposal abstract and details
-nav: false
+title: licentiate
+nav: true
+nav_order: 1
 ---
 
-## Licentiate Proposal
-
-### Abstract
-
-A licentiate proposal is an important milestone in the Swedish academic system. This page will contain the detailed abstract and information about the upcoming licentiate proposal.
-
-More details to follow as the proposal develops.
-
-### Key Information
-
-- **Expected Date**: Coming soon
-- **Field**: Computer Science and Engineering
-- **Status**: In preparation
-
-Please check back for updates.
+Licentiate proposal approved by professor Mobyen Uddin Ahmed, at Mälardalen University, 2. October 2025. Papers included in proposal may be seen at the **[publications page](/publications/)**.
+{% include licentiate_proposal.liquid %}
