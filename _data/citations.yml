@@ -1,10 +1,14 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-06-08'
 papers:
   KWvrW6YAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Machine learning-based cache miss prediction
     year: '2025'
+  KWvrW6YAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: 'HASCO: A Hybrid AI Simulation Compiler for Semantic Accident Reconstruction'
+    year: '2026'
   KWvrW6YAAAAJ:UeHWp8X0CEIC:
     citations: 1
     title: 'A Conformal Prediction-Based Framework for CPU Load Forecasting: A Black-Box Approach'
@@ -21,3 +25,7 @@ papers:
     citations: 0
     title: 'Dynamic Movement Primitives in High-precision Robotic Applications: Master Thesis: Master Study Program Second Cycle of Electrical Engineering'
     year: '2021'
+  KWvrW6YAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Machine learning for predictive modeling and abstraction in industrial-scale systems
+    year: Unknown Year
