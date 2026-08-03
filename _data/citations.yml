@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-08-03'
 papers:
   KWvrW6YAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -13,6 +13,14 @@ papers:
     citations: 2
     title: 'A Conformal Prediction-Based Framework for CPU Load Forecasting: A Black-Box Approach'
     year: '2025'
+  KWvrW6YAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: 'HASCO: A Hybrid AI Simulation Compiler for Semantic Accident Reconstruction'
+    year: '2026'
+  KWvrW6YAAAAJ:Y0pCki6q_DkC:
+    citations: 1
+    title: Abstraction-based reduction of input size for neural networks
+    year: '2026'
   KWvrW6YAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: Dynamic movement primitives in high-precision robotic applications
