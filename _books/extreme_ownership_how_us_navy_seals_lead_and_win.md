@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/extreme_ownership_how_us_navy_seals_lead_and_win.jpg
 buy_link: https://www.goodreads.com/book/show/23848190
 goodreads_review: 23848190
-date: 2026-03-04
-started: 2026-03-04
+date: 2023-03-01
+finished: 2023-03-01
 released: 2015
+stars: 5
 status: Finished
 ---
 

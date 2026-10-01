@@ -35,7 +35,8 @@
       "endDate": "",
       "summary": "Computer Science. Ongoing project: PerFlex: Performant and Flexible digital Systems through Verifiable AI.",
       "highlights": [
-        "Architected and implemented an automated vehicular scenario generation pipeline utilizing the esmini simulation environment. Integrated a novel HASCo (Hybrid AI Scene Compiler) framework to orchestrate complex traffic scenarios for the validation of autonomous drive features under industrial safety constraints.",
+        "Presented the licentiate thesis 'Machine Learning for Predictive Modeling and Abstraction in Industrial-Scale Systems' (Mälardalen University Press Licentiate Theses 384, June 2026), a compilation of four peer-reviewed papers.",
+        "Architected and implemented an automated vehicular scenario generation pipeline utilizing the esmini simulation environment. Built HASCO (Hybrid AI Simulation Compiler), which compiles natural-language accident reports into executable OpenSCENARIO scenarios for the validation of autonomous drive features, reaching a 95% executability rate on 40 real-world reports (AEiC 2026).",
         "Engineered a Deep Learning-based cache simulator using LSTM networks to predict cache miss distributions, achieving near-native accuracy while significantly optimizing execution time compared to tools like DynamoRIO.",
         "Developed a CPU load forecasting framework for industrial embedded systems, implementing Conformal Prediction for uncertainty quantification and Shapley values for real-time interpretability on resource-constrained hardware.",
         "Architected a full-stack Electron/Typescript application to streamline AI model deployment, integrating Docker containerization for reproducible testing across simulation environments.",
@@ -136,10 +137,24 @@
   "certificates": [],
   "publications": [
     {
+      "name": "Machine Learning for Predictive Modeling and Abstraction in Industrial-Scale Systems",
+      "publisher": "Licentiate thesis, Mälardalen University Press Licentiate Theses 384",
+      "releaseDate": "2026-06-15",
+      "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:mdh:diva-76650",
+      "summary": "Published in Västerås, Sweden."
+    },
+    {
+      "name": "HASCO: A Hybrid AI Simulation Compiler for Semantic Accident Reconstruction",
+      "publisher": "30th Ada-Europe International Conference on Reliable Software Technologies (AEiC 2026)",
+      "releaseDate": "2026-06-03",
+      "url": "https://doi.org/10.4230/OASIcs.AEiC.2026.4",
+      "summary": "Published in Västerås, Sweden."
+    },
+    {
       "name": "Machine-Learning Based Cache Miss Prediction",
       "publisher": "Springer International Journal on Software Tools for Technology Transfer - STTT",
       "releaseDate": "2025-01-01",
-      "url": "https://link-springer-com.ep.bib.mdh.se/article/10.1007/s10009-025-00800-6",
+      "url": "https://doi.org/10.1007/s10009-025-00800-6",
       "summary": "Published in Germany."
     },
     {

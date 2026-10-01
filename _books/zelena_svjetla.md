@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/zelena_svjetla.jpg
 buy_link: https://www.goodreads.com/book/show/61306924
 goodreads_review: 61306924
-date: 2026-03-13
-started: 2026-03-13
+date: 2024-09-19
+finished: 2024-09-19
 released: 2020
+stars: 5
 status: Finished
 ---
 

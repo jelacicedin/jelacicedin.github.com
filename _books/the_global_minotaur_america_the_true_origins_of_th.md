@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/the_global_minotaur_america_the_true_origins_of_th.jpg
 buy_link: https://www.goodreads.com/book/show/138882974
 goodreads_review: 138882974
-date: 2026-03-13
-started: 2026-03-13
+date: 2024-02-26
+finished: 2024-02-26
 released: 2011
+stars: 5
 status: Finished
 ---
 

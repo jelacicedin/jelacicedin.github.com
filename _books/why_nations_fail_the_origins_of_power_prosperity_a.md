@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/why_nations_fail_the_origins_of_power_prosperity_a.jpg
 buy_link: https://www.goodreads.com/book/show/12158480
 goodreads_review: 12158480
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-03-20
+finished: 2025-03-20
 released: 2012
+stars: 5
 status: Finished
 ---
 

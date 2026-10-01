@@ -7,8 +7,8 @@ tags: technical-reading
 cover: assets/img/book_covers/modern_time_series_forecasting_with_python_explore.jpg
 buy_link: https://www.goodreads.com/book/show/70014250
 goodreads_review: 70014250
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-05-16
+started: 2025-05-16
 released: 2022
 status: Reading
 ---

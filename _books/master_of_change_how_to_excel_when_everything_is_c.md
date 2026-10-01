@@ -7,9 +7,9 @@ tags: technical-reading
 cover: assets/img/book_covers/master_of_change_how_to_excel_when_everything_is_c.jpg
 buy_link: https://www.goodreads.com/book/show/75289864
 goodreads_review: 75289864
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-04-27
 released: 2023
+stars: 4
 status: Finished
 ---
 

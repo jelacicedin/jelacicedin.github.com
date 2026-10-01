@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2025-01-02
+date: 2025-02-22
+title: Cache miss prediction article in STTT
 inline: false
 ---
 

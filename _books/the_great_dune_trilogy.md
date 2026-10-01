@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/the_great_dune_trilogy.jpg
 buy_link: https://www.goodreads.com/book/show/53764
 goodreads_review: 53764
-date: 2026-03-13
-started: 2026-03-13
+date: 2025-09-10
+finished: 2025-09-10
 released: 1965
+stars: 5
 status: Finished
 ---
 

@@ -7,8 +7,8 @@ tags: technical-reading
 cover: assets/img/book_covers/the_biggest_ideas_in_the_universe_quanta_and_field.jpg
 buy_link: https://www.goodreads.com/book/show/196848522
 goodreads_review: 196848522
-date: 2026-03-13
-started: 2026-03-13
+date: 2026-03-08
+started: 2026-03-08
 released: 2024
 status: Reading
 ---

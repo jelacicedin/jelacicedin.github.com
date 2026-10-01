@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/the_beginning_of_infinity_explanations_that_transf.jpg
 buy_link: https://www.goodreads.com/book/show/10483171
 goodreads_review: 10483171
-date: 2026-03-13
-started: 2026-03-13
+date: 2025-11-19
+finished: 2025-11-19
 released: 2011
+stars: 5
 status: Finished
 ---
 

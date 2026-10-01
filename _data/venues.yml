@@ -14,8 +14,13 @@
   color: "#0071c5"
 
 "STTT":
-  url: https://link-springer-com.ep.bib.mdh.se/article/10.1007/s10009-025-00800-6
+  url: https://doi.org/10.1007/s10009-025-00800-6
   color: "#0071c5"
+
+# Theses
+"Licentiate":
+  url: https://urn.kb.se/resolve?urn=urn:nbn:se:mdh:diva-76650
+  color: "#4f46e5"
 
 # Conferences
 "To be published at conference":
@@ -28,6 +33,10 @@
 
 "2025 IEEE 49th Annual Computers, Software, and Applications Conference (COMPSAC)":
   url: https://ieeexplore.ieee.org/document/11126446
+  color: "#0078d4"
+
+"AEiC":
+  url: https://www.ada-europe.org/conference2026/
   color: "#0078d4"
 
 "AISola":

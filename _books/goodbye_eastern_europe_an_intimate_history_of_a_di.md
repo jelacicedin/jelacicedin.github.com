@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/goodbye_eastern_europe_an_intimate_history_of_a_di.jpg
 buy_link: https://www.goodreads.com/book/show/72114452
 goodreads_review: 72114452
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-06-04
+finished: 2025-06-04
 released: 2023
+stars: 4
 status: Finished
 ---
 

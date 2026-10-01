@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/empire_of_ai_dreams_and_nightmares_in_sam_altmans_.jpg
 buy_link: https://www.goodreads.com/book/show/222725518
 goodreads_review: 222725518
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-12-09
+finished: 2025-12-09
 released: 2025
+stars: 5
 status: Finished
 ---
 

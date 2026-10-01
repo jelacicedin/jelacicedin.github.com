@@ -30,6 +30,8 @@ I'm a PhD researcher at Mälardalen University studying how to build AI systems 
 
 Currently, I'm working on the PerFlex project with collaborators at Volvo Cars, Hitachi Energy, and Ericsson. The research looks at how to preserve system properties like execution time and power consumption when using machine learning, and how to verify that these properties hold.
 
+In June 2026 I presented my [licentiate thesis](/licentiate/), _Machine Learning for Predictive Modeling and Abstraction in Industrial-Scale Systems_. Its most recent paper, HASCO, was published at AEiC 2026: it compiles natural-language accident reports into executable driving simulations for testing automated vehicles.
+
 Before my PhD, I worked as a software engineer at Cosylab building critical systems for radiation therapy machines. That experience taught me why safety matters.
 
 Explore my work:
@@ -37,7 +39,8 @@ Explore my work:
 - **[Publications](/publications/)** - Peer-reviewed papers
 - **[Projects](/projects/)** - Research collaborations
 - **[CV](/cv/)** - Academic background
-- **[Bookshelf](/bookshelf/)** - Things I'm reading
+- **[Licentiate](/licentiate/)** - My licentiate thesis
+- **[Bookshelf](/bookshelf/)** - Things I'm reading, also on [Goodreads](https://www.goodreads.com/user/show/51761966-edin-jelacic)
 - **[People](/people/)** - My supervisors
 
 Feel free to get in touch via email or LinkedIn if you want to chat about AI safety, robotics, or systems engineering.

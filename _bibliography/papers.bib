@@ -51,12 +51,44 @@
 }
 
 @INPROCEEDINGS{Jelacic2026-hc,
-  title    = {{HASCo}: A Hybrid {AI} Simulation Compiler for Semantic Accident Reconstruction},
-  author   = {Jelačić, Edin},
+  title     = {{HASCO}: A Hybrid {AI} Simulation Compiler for Semantic Accident Reconstruction},
+  author    = {Jelačić, Edin and Gu, Rong and Seceleanu, Cristina and Xiong, Ning and
+               Backeman, Peter and Seceleanu, Tiberiu and Fei, Zhennan and Nouri, Ali},
   bibtex_show = {true},
-  preview  = {hasco.png},
-  year     = {2026},
-  note     = {In preparation}
+  preview   = {hasco.png},
+  booktitle = {30th Ada-Europe International Conference on Reliable Software Technologies (AEiC 2026)},
+  abbr      = {AEiC},
+  series    = {Open Access Series in Informatics (OASIcs)},
+  volume    = {143},
+  pages     = {4:1--4:22},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum für Informatik},
+  venue     = {Västerås, Sweden},
+  year      = {2026},
+  date      = {2026-06-03},
+  doi       = {10.4230/OASIcs.AEiC.2026.4},
+  html      = {https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.AEiC.2026.4},
+  keywords  = {Autonomous Driving; OpenSCENARIO; Large Language Models; Scenario Generation; Semantic Reconstruction},
+  language  = {en},
+  abstract  = {The validation of Automated Driving Systems (ADSs) has shifted from distance-based metrics to Scenario-Based Testing (SBT). Large Language Models (LLMs) have emerged as powerful tools with potential for generating vehicular scenarios at scale. However, generative models, used for direct simulation synthesis, produce inadequate output, therefore necessitating a more structured compilation approach. In this regard, we present HASCO (Hybrid AI Simulation COmpiler), a system that translates natural-language driving scene specifications into executable simulation artifacts (XOSC/XODR files) for the esmini/OpenSCENARIO ecosystem. While LLMs excel at narrative parsing, we demonstrate that direct synthesis of simulation artifacts fails in the vast majority of cases due to hallucinated physics or schema violations. To resolve this, HASCO treats scenario creation as a compilation task rather than a generative one. The pipeline supports three compilation paths: direct synthesis, a Python intermediate (via scenariogeneration), and an ontology-guided path that grounds intent into an intermediate representation (IR) before compilation. We further evaluate a self-judging mechanism for automated repair. Across six operating modes evaluated on 40 real-world accident reports, the ontology-guided compiler and Python-based compiler achieve 95\% and 90\% executability rates, respectively (compared to 5\% for direct synthesis). Additionally, we evaluate outputs on semantic fidelity, positioning HASCO as a robust tool for forensic scene reconstruction.}
+}
+
+@THESIS{Jelacic2026-lic,
+  title     = {Machine Learning for Predictive Modeling and Abstraction in Industrial-Scale Systems},
+  author    = {Jelačić, Edin},
+  bibtex_show = {true},
+  abbr      = {Licentiate},
+  school    = {Mälardalen University},
+  address   = {Västerås, Sweden},
+  series    = {Mälardalen University Press Licentiate Theses},
+  number    = {384},
+  isbn      = {978-91-7485-758-0},
+  year      = {2026},
+  note      = {Licentiate thesis, comprehensive summary},
+  html      = {https://urn.kb.se/resolve?urn=urn:nbn:se:mdh:diva-76650},
+  slides    = {licentiate_presentation.pdf},
+  keywords  = {Machine learning; Embedded systems; Trustworthy AI; Explainability; Conformal prediction; Neural network verification; Cache simulation; Scenario-based testing; Industrial systems},
+  language  = {en},
+  abstract  = {Machine learning is increasingly called upon to guide decisions in critical industrial applications. Its predictive power promises gains in efficiency, yet its black-box nature and lack of guarantees pose risks in contexts where behavior must remain analyzable and safe. This thesis asks how machine learning can be made trustworthy, explainable, and efficient enough for engineers to deploy in practice. Three gaps hamper broader adoption. Few works provide formal or statistical guarantees on ML outputs paired with explanations that engineers can act on (Gap A). Data-driven models that generalize across hardware configurations without retraining remain rare, and existing simulators are prohibitively slow (Gap B). Many contributions address individual components of industrially motivated problems without combining them into validated end-to-end pipelines (Gap C). To address Gap A, we apply abstraction to neural networks, showing that inputs with negligible effect on the output can be formally identified and removed, producing simpler yet bounded models open to verification. We then introduce a conformal prediction framework for CPU load forecasting that provides statistically guaranteed coverage intervals, combined with Shapley value analysis to trace individual task contributions to the predicted load. To address Gap B, we develop a data-driven cache memory surrogate using long short-term memory networks, reproducing cache miss distributions across unseen hardware configurations at a fraction of the simulator's computational cost. To address Gap C, we present HASCO, a Hybrid AI Simulation Compiler that translates natural language accident reports into executable vehicular simulation scenarios through a structured compilation approach with deterministic validation. Together, these contributions establish a path toward machine learning that is not merely powerful but trustworthy, explainable, and practically deployable in the industrial workflow.}
 }
 
 @ARTICLE{Jelacic2025-rb,

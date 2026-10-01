@@ -7,8 +7,8 @@ tags: technical-reading
 cover: assets/img/book_covers/natural_language_processing_with_transformers_buil.jpg
 buy_link: https://www.goodreads.com/book/show/60114857
 goodreads_review: 60114857
-date: 2026-03-04
-started: 2026-03-04
+date: 2024-05-30
+started: 2024-05-30
 released: 2022
 status: Reading
 ---

@@ -7,9 +7,10 @@ tags: technical-reading
 cover: assets/img/book_covers/build_a_large_language_model.jpg
 buy_link: https://www.goodreads.com/book/show/209234015
 goodreads_review: 209234015
-date: 2026-03-04
-started: 2026-03-04
+date: 2025-09-12
+finished: 2025-09-12
 released: 2025
+stars: 5
 status: Finished
 ---
 

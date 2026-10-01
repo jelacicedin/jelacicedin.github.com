@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2021-08-01
+title: Master's thesis presented at ERK 2021
 inline: false
 ---
 
