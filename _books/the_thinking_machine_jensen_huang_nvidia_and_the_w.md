@@ -15,4 +15,4 @@ status: Reading
 
 "“Stephen Witt’s deep reporting shines through every page of The Thinking Machine. The result is a page-turning biography of perhaps the most consequential CEO and company in the world."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

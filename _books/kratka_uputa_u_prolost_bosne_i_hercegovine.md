@@ -16,4 +16,4 @@ status: Finished
 
 "Leather Binding on Spine and Corners with Golden leaf printing on spine."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

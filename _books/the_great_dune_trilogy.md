@@ -16,4 +16,4 @@ status: Finished
 
 "Herbert's evocative, epic tales are set on the desert planet Arrakis, the focus for a complex political and military struggle with galaxy-wide repercussions."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

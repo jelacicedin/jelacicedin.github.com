@@ -17,4 +17,4 @@ status: Finished
 
 "Recent breakthroughs in AI have not only increased demand for AI products, they've also lowered the barriers to entry for those who want to build AI products."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

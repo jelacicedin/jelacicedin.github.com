@@ -16,4 +16,4 @@ status: Finished
 
 "Two leading authorities—an acclaimed historian and the outstanding battlefield commander and strategist of our time—collaborate on a landmark examination of war since 1945."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

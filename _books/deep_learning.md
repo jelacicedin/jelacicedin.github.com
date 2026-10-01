@@ -14,4 +14,4 @@ status: Finished
 
 "An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

@@ -16,4 +16,4 @@ status: Finished
 
 "A New York Times Notable Book • Finalist for the National Book Critics Circle Award • An Instant New York Times Bestseller • Named a Best Book of the Year by Smithsonian, Scientific American, and Elle“A bestselling page-turner that has made waves not just in Silicon Valley but around the world ."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

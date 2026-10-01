@@ -15,4 +15,4 @@ status: Finished
 
 "NATIONAL BESTSELLER A revelatory book on rethinking change, creating a rugged and flexible mindset and identity, and developing habits for life's intensifying flux."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

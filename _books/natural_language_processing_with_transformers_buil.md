@@ -15,4 +15,4 @@ status: Reading
 
 "Since their introduction in 2017, transformers have quickly become the dominant architecture for achieving state-of-the-art results on a variety of natural language processing tasks."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

@@ -16,4 +16,4 @@ status: Finished
 
 "The #1 New York Times bestseller Sent to the most violent battlefield in Iraq, Jocko Willink and Leif Babin’s SEAL task unit faced a seemingly impossible help U.S."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

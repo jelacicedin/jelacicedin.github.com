@@ -15,4 +15,4 @@ status: Reading
 
 "Build real-world time series forecasting systems which scale to millions of time series by applying modern machine learning and deep learning conceptsKey FeaturesExplore industry-tested machine learning techniques used to forecast millions of time seriesGet started with the revolutionary paradigm of global forecasting modelsGet to grips with new concepts by applying them to real-world datasets of energy forecastingBook DescriptionWe live in a serendipitous era where the explosion in the quantum of data collected and a renewed interest in data-driven techniques such as machine learning (ML), has changed the landscape of analytics, and with it, time series forecasting."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

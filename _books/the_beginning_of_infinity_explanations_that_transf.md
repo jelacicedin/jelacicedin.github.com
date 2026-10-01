@@ -16,4 +16,4 @@ status: Finished
 
 "'Science has never had an advocate quite like David Deutsch ..."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

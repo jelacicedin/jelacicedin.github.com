@@ -16,4 +16,4 @@ status: Finished
 
 "In his boldest and most far-reaching book yet, world-famous economist Yanis Varoufakis argues that capitalism is dead and a new economic era has begun."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

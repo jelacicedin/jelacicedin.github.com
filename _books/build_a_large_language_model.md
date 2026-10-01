@@ -16,4 +16,4 @@ status: Finished
 
 "Learn how to create, train, and tweak large language models (LLMs) by building one from the ground up!In Build a Large Language Model (from Scratch), you’ll discover how LLMs work from the inside out."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

@@ -13,11 +13,13 @@ A collaborative research project addressing performance optimization in multicor
 **Status:** Ongoing (September 2022 – August 2025)
 
 **Key Focus:**
+
 - Developing transparent AI solutions that preserve non-functional properties like execution time and power consumption
 - Characterizing processor activities to maintain individual task performance
 - Creating verifiable AI approaches supporting deployment and system maintenance
 
 **Participating Organizations:**
+
 - Mälardalen University (expertise in ML/AI, formal methods, verification, multicore systems)
 - Hitachi Energy AB (embedded and cyber-physical systems)
 - Ericsson AB (time-critical systems)

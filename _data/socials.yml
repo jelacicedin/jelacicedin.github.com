@@ -15,6 +15,6 @@ goodreads:
   title: Goodreads
   url: https://www.goodreads.com/user/show/51761966-edin-jelacic
 #custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  #logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  #title: Custom Social
-  #url: https://www.alberteinstein.com/
+#logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#title: Custom Social
+#url: https://www.alberteinstein.com/

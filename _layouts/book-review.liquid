@@ -91,7 +91,9 @@ layout: default
       {% if categories != '' %}
         &nbsp;&middot;&nbsp;
         {% for category in page.categories %}
-          <a href="{{ category | slugify | prepend: '/bookshelf/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
+          <a href="{{ category | slugify | prepend: '/bookshelf/category/' | relative_url }}">
+            <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
+          </a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
@@ -162,16 +164,27 @@ layout: default
   </article>
 
   {% if page.goodreads_review or page.buy_link %}
-    <div class="book-links" style="margin-top: 2rem; padding: 1.5rem; background: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 8px; text-align: center;">
+    <div
+      class="book-links"
+      style="margin-top: 2rem; padding: 1.5rem; background: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 8px; text-align: center;"
+    >
       <h3 style="margin-top: 0;">Find This Book</h3>
       <div class="links-container" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
         {% if page.goodreads_review %}
-          <a href="https://www.goodreads.com/book/show/{{ page.goodreads_review }}" target="_blank" style="padding: 0.75rem 1.5rem; background: #F3F1D7; color: #382110; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
+          <a
+            href="https://www.goodreads.com/book/show/{{ page.goodreads_review }}"
+            target="_blank"
+            style="padding: 0.75rem 1.5rem; background: #F3F1D7; color: #382110; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 500;"
+          >
             <i class="fa-brands fa-goodreads-g"></i> Goodreads
           </a>
         {% endif %}
         {% if page.buy_link %}
-          <a href="{{ page.buy_link }}" target="_blank" style="padding: 0.75rem 1.5rem; background: #FF9900; color: white; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
+          <a
+            href="{{ page.buy_link }}"
+            target="_blank"
+            style="padding: 0.75rem 1.5rem; background: #FF9900; color: white; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 500;"
+          >
             <i class="fa-brands fa-amazon"></i> Amazon
           </a>
         {% endif %}

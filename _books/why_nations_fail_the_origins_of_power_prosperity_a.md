@@ -16,4 +16,4 @@ status: Finished
 
 "Brilliant and engagingly written, Why Nations Fail answers the question that has stumped the experts for centuries: Why are some nations rich and others poor, divided by wealth and poverty, health and sickness, food and famine? Is it culture, the weather, geography? Perhaps ignorance of what the right policies are? Simply, no."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

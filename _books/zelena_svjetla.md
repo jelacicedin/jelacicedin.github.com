@@ -16,4 +16,4 @@ status: Finished
 
 "#1 BESTSELER NEW YORK TIMESA • Otkrijte memoare glumca nagrađenog Oscarom koji su promijenili živote i inspirirali milijune čitatelja nepokolebljivom iskrenošću, nekonvencionalnom mudrošću i lekcijama o životu s većim zadovoljstvom."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

@@ -13,23 +13,27 @@ A collaborative research initiative developing an autonomous system testing and 
 **Status:** Active (May 2023 – May 2026)
 
 **Key Focus:**
+
 - Developing a framework for highly autonomous system testing and operation
 - Integrating digital twins with AI and formal verification approaches
 - Optimizing resource utilization and increasing system resilience to faults
 - Supporting circular economy principles and operational efficiency
 
 **Core Technologies:**
+
 - Digital twin technology
 - Artificial intelligence and machine learning
 - Verification and validation methodologies
 - Continuous learning and model verification
 
 **Application Domains:**
+
 - Manufacturing
 - Transportation
 - Telecommunications
 
 **Industrial Partners:**
+
 - ABB Corporate Research
 - Alstom
 - Ericsson AB

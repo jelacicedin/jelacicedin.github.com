@@ -4,11 +4,11 @@
 
 async function loadRandomQuote() {
   try {
-    const response = await fetch('/assets/quotes/quotes.txt');
+    const response = await fetch("/assets/quotes/quotes.txt");
     const text = await response.text();
 
     // Split into paragraphs (double newlines)
-    const blocks = text.split(/\n\n+/).filter(block => block.trim().length > 0);
+    const blocks = text.split(/\n\n+/).filter((block) => block.trim().length > 0);
     const quotes = [];
 
     for (let block of blocks) {
@@ -36,11 +36,7 @@ async function loadRandomQuote() {
         const author = attributionMatch[2].trim();
 
         // Validate quote
-        if (
-          quoteText.length > 10 &&
-          quoteText.length < 2000 &&
-          author.length > 2
-        ) {
+        if (quoteText.length > 10 && quoteText.length < 2000 && author.length > 2) {
           quotes.push({
             text: quoteText,
             attribution: `${dash} ${author}`,
@@ -51,7 +47,7 @@ async function loadRandomQuote() {
 
     // Remove duplicates
     const seen = new Set();
-    const uniqueQuotes = quotes.filter(q => {
+    const uniqueQuotes = quotes.filter((q) => {
       if (seen.has(q.text)) {
         return false;
       }
@@ -67,14 +63,11 @@ async function loadRandomQuote() {
       const selectedQuote = uniqueQuotes[randomIndex];
 
       // Display the quote
-      const quoteElement = document.getElementById('random-quote');
+      const quoteElement = document.getElementById("random-quote");
       if (quoteElement) {
         // Escape HTML entities and preserve line breaks
-        const escaped = document
-          .createElement('div')
-          .appendChild(document.createTextNode(selectedQuote.text))
-          .parentNode.innerHTML;
-        const formattedText = escaped.replace(/\n/g, '<br>');
+        const escaped = document.createElement("div").appendChild(document.createTextNode(selectedQuote.text)).parentNode.innerHTML;
+        const formattedText = escaped.replace(/\n/g, "<br>");
 
         quoteElement.innerHTML = `
           <blockquote>
@@ -84,18 +77,16 @@ async function loadRandomQuote() {
         `;
       }
     } else {
-      console.warn('No valid quotes found');
+      console.warn("No valid quotes found");
     }
   } catch (error) {
-    console.error('Error loading quotes:', error);
+    console.error("Error loading quotes:", error);
   }
 }
 
 // Load quote when the page loads
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', loadRandomQuote);
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", loadRandomQuote);
 } else {
   loadRandomQuote();
 }
-
-

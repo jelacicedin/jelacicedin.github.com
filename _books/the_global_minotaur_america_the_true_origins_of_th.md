@@ -16,4 +16,4 @@ status: Finished
 
 "In this remarkable and provocative book, Yanis Varoufakis explores the myth that financialisation, ineffectual regulation of banks, greed and globalisation were the root causes of the global economic crisis."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

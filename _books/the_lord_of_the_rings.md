@@ -17,4 +17,4 @@ status: Finished
 
 "Alternative cover editions for this ISBN can be found here and here.The Lord of the Rings cannot be described in a few words. J.R.R."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

@@ -16,4 +16,4 @@ status: Finished
 
 "Eastern Europe is disappearing. Not off the map of course, but as an idea. Today it calls to mind a jumble of post-Soviet states paved over with C&A and McDonald's."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_

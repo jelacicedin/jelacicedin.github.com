@@ -177,58 +177,31 @@
       "name": "Programming",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Java",
-        "C++",
-        "C",
-        "C#"
-      ]
+      "keywords": ["Python", "Java", "C++", "C", "C#"]
     },
     {
       "name": "AI & ML",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "AI model deployment",
-        "AI analysis"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "AI model deployment", "AI analysis"]
     },
     {
       "name": "Development Tools",
       "level": "Intermediate",
       "icon": "fa-solid fa-toolbox",
-      "keywords": [
-        "Docker",
-        "SQLite",
-        "Electron.js",
-        "CI/CD pipelines"
-      ]
+      "keywords": ["Docker", "SQLite", "Electron.js", "CI/CD pipelines"]
     },
     {
       "name": "Modeling & Simulation",
       "level": "Advanced",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "MATLAB",
-        "Simulink",
-        "LTSpice",
-        "LabVIEW",
-        "ABB RobotStudio"
-      ]
+      "keywords": ["MATLAB", "Simulink", "LTSpice", "LabVIEW", "ABB RobotStudio"]
     },
     {
       "name": "Hardware & Embedded",
       "level": "Intermediate",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "Data Acquisition (DAQ)",
-        "Signal Analysis",
-        "Electrical Measurement",
-        "PCB design"
-      ]
+      "keywords": ["Data Acquisition (DAQ)", "Signal Analysis", "Electrical Measurement", "PCB design"]
     }
   ],
   "languages": [
@@ -258,9 +231,7 @@
     {
       "name": "Hydrogen Core Reactor",
       "summary": "Electromechanical device project focusing on energy efficiency with respect to internal combustion engines. Resulted in a 5th place finish in the Engineering section at the International Burch University Project Olympiad.",
-      "highlights": [
-        "Researched and developed energy efficiency concepts for internal combustion engines."
-      ],
+      "highlights": ["Researched and developed energy efficiency concepts for internal combustion engines."],
       "startDate": "2015-01-01",
       "endDate": "2015-01-01"
     }

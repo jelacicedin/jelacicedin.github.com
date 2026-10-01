@@ -14,4 +14,4 @@ status: Finished
 
 "Isaac Asimov's I, Robot launches readers on an adventure into a not-so-distant future where man and machine , struggle to redefinelife, love, and consciousness—and where the stakes are nothing less than survival."
 
-*Abstract from Goodreads*
+_Abstract from Goodreads_
