@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jelacicedin.github.io/sitemap.xml
+Sitemap: https://jelacic.dev/sitemap.xml
